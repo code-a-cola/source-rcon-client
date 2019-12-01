@@ -184,14 +184,14 @@ const SourceRCONClient = _make({
             });
             */
         } else {
-            throw new _Error({
-                details: {
-                    id,
-                    length,
-                    type
-                },
-                message: `response id ${id} did not match any known request id`
-            });
+            // throw new _Error({
+            //     details: {
+            //         id,
+            //         length,
+            //         type
+            //     },
+            //     message: `response id ${id} did not match any known request id`
+            // });
         }
     },
 
